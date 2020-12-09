@@ -14,7 +14,7 @@ const formatString = function (string) {
   //   return `${changeString}...`;
   // }
 
-let changeString = 40 <= string.length ? string.slice(0, 40) + '...' : string;
+const changeString = 40 <= string.length ? string.slice(0, 40) + '...' : string;
   return changeString; //со стрелочными синтаксис не могу запомнить, что за чем идёт
 }
 console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
