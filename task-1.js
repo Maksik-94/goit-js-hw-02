@@ -1,7 +1,7 @@
 'use strict';//где-то видео услышал, что в ES новых стандартов 
 //уже не нужно ставить строгий режим, но желательно
 const logItems = function (array) {
-  for (var i = 0; i < array.length; i += 1) {
+  for (let i = 0; i < array.length; i += 1) {
     console.log(`${i + 1} - ${array[i]}`);
   }
 };
